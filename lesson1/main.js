@@ -57,12 +57,9 @@ console.log(person)
 
 // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
      let a = 100; let b = '100'; let c = true;
-console.log(`a = ${a}`);
-console.log(typeof a);
-console.log(`b = ${b}`);
-console.log(typeof b);
-console.log(`c = ${c}`);
-console.log(typeof c);
+console.log(`a = ${a}`, typeof a);
+console.log(`b = ${b}`, typeof b);
+console.log(`c = ${c}`, typeof c);
 
 
 // Додаткове для тих хто цікавився prompt`oм
